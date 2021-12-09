@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pytest = "*"
+
+[packages]
+discord-py = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+bot = "python run.py"
+lint = "flake8 --ignore=E302,E501 --exclude .venv"
