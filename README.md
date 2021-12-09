@@ -1,5 +1,7 @@
 # discordpy-role-list-example
 
+<img width="496" alt="command example" src="https://user-images.githubusercontent.com/42476527/145411793-9c3bed3e-0e2a-4448-ad69-6f94d0efa136.png">
+
 これは、role一覧をcsv出力するコマンド（`??rolecsv`）の実装例を提示するためのリポジトリです。
 
 ## csvの形式
